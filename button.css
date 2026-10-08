@@ -1,0 +1,59 @@
+.navigation-buttons {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 10px;
+    background-color: transparent;
+
+}
+
+
+.nav-btn {
+    padding: 12px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
+
+    box-shadow: 0 4px 15px rgba(138, 43, 226, 0.4);
+}
+
+
+.nav-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(138, 43, 226, 0.6);
+}
+
+
+.btn-back {
+    background-color: #8a2be2;
+}
+
+.btn-back:hover {
+    background-color: #7b26c9;
+}
+
+.btn-home {
+    background-color: #8a2be2;
+}
+
+.btn-home:hover {
+    background-color: #7b26c9;
+}
+
+.btn-next {
+    background-color: #8a2be2;
+}
+
+.btn-next:hover {
+    background-color: #7b26c9;
+}
